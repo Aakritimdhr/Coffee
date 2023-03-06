@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Labrada:wght@600&display=swap');
 
 *{
     background-color: beige;
@@ -15,7 +16,10 @@ ul li {
     margin-right: 20px;
     margin-left: 150px;
 }
-
+a {
+    text-decoration: none;
+    color: black;
+}
 .nav-lists ul{
     margin: 0;
     padding: 0;
@@ -51,12 +55,13 @@ h3 {
     font-weight: 600;
     font-size: 50px;
     margin-top: 100px;
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Labrada', serif;
+
 }
 .Bottom-section {
     display: flex;
     flex-wrap: wrap;
-    padding: 100px;
+    padding: 50px 100px 100px 100px;
 }
 .imgandtext1 img{
     width: 250px;
@@ -166,6 +171,85 @@ h3 {
 }
 .Top-section{
     margin-top: 105px;
-    
+
+}
+.description{
+    text-align: center;
+    padding: 100px 300px 100px 300px;
+}
+.mathi h1{
+    text-align: center;
+    margin-top: 100px;
+}
+.Above h1 {
+    font-size: 42px;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.form .name {
+    flex: 0 0 44%;
+    width: 44%;
+}
+
+.form .email {
+    flex: 0 0 44%;
+    width: 44%;
+}
+
+.form .text {
+    flex: 0 0 92%;
+    width: 100%;
+}
+
+.fom{
+    width: 100%;
+    display: block;
+    font-size: 1rem;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    padding: 17px;
+}
+
+.form-list {
+    padding: 0 20px;
+}
+
+textarea {
+    height: 200px;
+}
+
+form {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.send-btn a {
+    text-decoration: none;
+    background: black;
+    color: #fff;
+    padding: 25px 80px;
+    border-radius: 30px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.send-btn {
+    margin-top: 90px;
+    text-align: center;
+}
+
+.send-btn a:hover {
+    background-color: #dfe220;
+}
+
+section.six {
+    padding: 0 0 100px 0;
 }
 
